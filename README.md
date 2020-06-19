@@ -30,7 +30,6 @@
   │   ├───Set5
   │   ├───T91
   │   ├───T91_G100
-  │   └───test_videos
   |    train_mscale.h5
   ├───outputs
   └───src
@@ -61,6 +60,12 @@
 * Execute the python scripts while being within the `src` folder in the terminal.
   * `train.py`: For training the SRCNN model.
   * `test.py`: To test on the test images.
+
+
+
+## <u>Results</u>
+
+
 
 
 

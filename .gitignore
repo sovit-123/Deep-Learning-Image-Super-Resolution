@@ -129,7 +129,16 @@ dmypy.json
 .pyre/
 
 # input data and models
-input/
+input/Set5
+input/Set14
+input/T91
+input/T91_G100
+input/General100
+input/bicubic_2x
+input/bicubic_4x
+input/bicubic_rgb_4x
+input/train_mscale.h5
+input/test_videos
 models/
 
 # data files
