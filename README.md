@@ -63,7 +63,19 @@
 
 
 
-## <u>Results</u>
+## <u>Some Results</u>
+
+![](https://github.com/sovit-123/Deep-Learning-Image-Super-Resolution/blob/master/input/bicubic_rgb_2x/baboon.png?raw=true)
+
+![](https://github.com/sovit-123/Deep-Learning-Image-Super-Resolution/blob/master/outputs/outputs_baboon.png?raw=true)
+
+![](https://github.com/sovit-123/Deep-Learning-Image-Super-Resolution/blob/master/input/bicubic_rgb_2x/comic.png?raw=true)
+
+![](https://github.com/sovit-123/Deep-Learning-Image-Super-Resolution/blob/master/outputs/outputs_comic.png?raw=true)
+
+![](https://github.com/sovit-123/Deep-Learning-Image-Super-Resolution/blob/master/input/bicubic_rgb_2x/zebra.png?raw=true)
+
+![](https://github.com/sovit-123/Deep-Learning-Image-Super-Resolution/blob/master/outputs/outputs_zebra.png?raw=true)
 
 
 
