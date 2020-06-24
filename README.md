@@ -66,7 +66,7 @@
 
 ## <u>Some Results</u>
 
-* The following are the when testing on the 2x scaled low-resolution images.
+* The following are from testing on the 2x scaled low-resolution images.
 
 ![](https://github.com/sovit-123/Deep-Learning-Image-Super-Resolution/blob/master/input/bicubic_rgb_2x/baboon.png?raw=true)
 
