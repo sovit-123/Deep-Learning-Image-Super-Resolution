@@ -58,12 +58,15 @@
 
 * `generate_train.m`: To generate the `train_mscale.h5` sub-images.
 * Execute the python scripts while being within the `src` folder in the terminal.
-  * `train.py`: For training the SRCNN model.
-  * `test.py`: To test on the test images.
+  * `python bicubic.py --path ../input/Set14 --scale-factor 2x`: To create low-resolution bicubic images for the Set14 data by a scaling factor of 2x.
+  * `python train.py`: For training the SRCNN model.
+  * `python test.py --input ../input/bicubic_rgb_2x`: To generate high resolution images of the 2x scaled low-resolution images.
 
 
 
 ## <u>Some Results</u>
+
+* The following are the when testing on the 2x scaled low-resolution images.
 
 ![](https://github.com/sovit-123/Deep-Learning-Image-Super-Resolution/blob/master/input/bicubic_rgb_2x/baboon.png?raw=true)
 

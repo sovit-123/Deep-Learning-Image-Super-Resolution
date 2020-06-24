@@ -17,12 +17,14 @@ file.close()
 # change the values to float32
 in_train = in_train.astype('float32')
 out_train = out_train.astype('float32')
-print(in_train.shape)
+print(f"H5 file shape: {in_train.shape}")
 
 """ Visualizing """
 plt.figure()
 for i in range(10):
-    image = in_train[0].reshape(img_rows, img_cols, 3)
+    image = in_train[i]
+    image = np.transpose(image, (1, 2, 0))
     plt.subplot(2, 5, i+1)
     plt.imshow(image)
+    plt.axis('off')
 plt.show()

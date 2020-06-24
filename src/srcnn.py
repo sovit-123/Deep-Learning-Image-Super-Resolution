@@ -52,8 +52,12 @@ class SRCNN3(nn.Module):
 
         return x
 
-
+# the larger filter size SRCNN 
 class SRCNN4(nn.Module):
+    """
+    Section 5.4 of:
+    https://personal.ie.cuhk.edu.hk/~ccloy/files/eccv_2014_deepresolution.pdf
+    """
     def __init__(self):
         super(SRCNN4, self).__init__()
 

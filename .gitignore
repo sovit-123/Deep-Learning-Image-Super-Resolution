@@ -136,10 +136,10 @@ input/T91_G100
 input/General100
 input/bicubic_2x
 input/bicubic_4x
-input/bicubic_rgb_4x
 input/train_mscale.h5
 input/test_videos
 models/
+outputs/*.mp4
 
 # data files
 *.csv
